@@ -1,0 +1,19 @@
+{
+  "name": "hyperloop-api",
+  "version": "1.0.0",
+  "description": "Red de Transporte Hyperloop - API REST (Express) con pruebas en Jest",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --verbose",
+    "test:coverage": "jest --coverage",
+    "test:buggy": "jest --config jest.buggy.config.js --verbose"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
